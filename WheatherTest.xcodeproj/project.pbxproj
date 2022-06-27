@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		457A880D2762C8EB001CB473 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A880C2762C8EB001CB473 /* WeatherManager.swift */; };
+		457A880F2764FB63001CB473 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A880E2764FB63001CB473 /* WeatherView.swift */; };
+		457A88112764FCF9001CB473 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A88102764FCF9001CB473 /* ModelData.swift */; };
+		457A88132764FD4C001CB473 /* WeatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 457A88122764FD4C001CB473 /* WeatherData.json */; };
+		457A881527650069001CB473 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A881427650069001CB473 /* Extensions.swift */; };
+		457A8818276515D4001CB473 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A8817276515D4001CB473 /* WeatherRow.swift */; };
 		45C5E76827616B45000D2D1C /* WheatherTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E76727616B45000D2D1C /* WheatherTestApp.swift */; };
 		45C5E76A27616B45000D2D1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E76927616B45000D2D1C /* ContentView.swift */; };
 		45C5E76C27616B4D000D2D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C5E76B27616B4D000D2D1C /* Assets.xcassets */; };
 		45C5E76F27616B4D000D2D1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C5E76E27616B4D000D2D1C /* Preview Assets.xcassets */; };
+		45C5E77F27616E19000D2D1C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E77E27616E19000D2D1C /* LocationManager.swift */; };
+		45C5E78327617122000D2D1C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E78227617122000D2D1C /* WelcomeView.swift */; };
+		45C5E78627617CD6000D2D1C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E78527617CD6000D2D1C /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		457A880C2762C8EB001CB473 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		457A880E2764FB63001CB473 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		457A88102764FCF9001CB473 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		457A88122764FD4C001CB473 /* WeatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherData.json; sourceTree = "<group>"; };
+		457A881427650069001CB473 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		457A8817276515D4001CB473 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 		45C5E76427616B45000D2D1C /* WheatherTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C5E76727616B45000D2D1C /* WheatherTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherTestApp.swift; sourceTree = "<group>"; };
 		45C5E76927616B45000D2D1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		45C5E76B27616B4D000D2D1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45C5E76E27616B4D000D2D1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45C5E77027616B4D000D2D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C5E77E27616E19000D2D1C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		45C5E78227617122000D2D1C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = WheatherTest/WelcomeView.swift; sourceTree = SOURCE_ROOT; };
+		45C5E78527617CD6000D2D1C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		457A8816276515AB001CB473 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				457A8817276515D4001CB473 /* WeatherRow.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		45C5E75B27616B45000D2D1C = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +78,11 @@
 		45C5E76627616B45000D2D1C /* WheatherTest */ = {
 			isa = PBXGroup;
 			children = (
+				457A8816276515AB001CB473 /* components */,
+				457A881427650069001CB473 /* Extensions.swift */,
+				45C5E78127617055000D2D1C /* views */,
+				45C5E77727616BEF000D2D1C /* managers */,
 				45C5E76727616B45000D2D1C /* WheatherTestApp.swift */,
-				45C5E76927616B45000D2D1C /* ContentView.swift */,
 				45C5E76B27616B4D000D2D1C /* Assets.xcassets */,
 				45C5E77027616B4D000D2D1C /* Info.plist */,
 				45C5E76D27616B4D000D2D1C /* Preview Content */,
@@ -65,8 +94,30 @@
 			isa = PBXGroup;
 			children = (
 				45C5E76E27616B4D000D2D1C /* Preview Assets.xcassets */,
+				457A88102764FCF9001CB473 /* ModelData.swift */,
+				457A88122764FD4C001CB473 /* WeatherData.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45C5E77727616BEF000D2D1C /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				45C5E77E27616E19000D2D1C /* LocationManager.swift */,
+				457A880C2762C8EB001CB473 /* WeatherManager.swift */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		45C5E78127617055000D2D1C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				45C5E76927616B45000D2D1C /* ContentView.swift */,
+				45C5E78227617122000D2D1C /* WelcomeView.swift */,
+				45C5E78527617CD6000D2D1C /* LoadingView.swift */,
+				457A880E2764FB63001CB473 /* WeatherView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457A88132764FD4C001CB473 /* WeatherData.json in Resources */,
 				45C5E76F27616B4D000D2D1C /* Preview Assets.xcassets in Resources */,
 				45C5E76C27616B4D000D2D1C /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +190,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457A880D2762C8EB001CB473 /* WeatherManager.swift in Sources */,
+				457A881527650069001CB473 /* Extensions.swift in Sources */,
 				45C5E76A27616B45000D2D1C /* ContentView.swift in Sources */,
 				45C5E76827616B45000D2D1C /* WheatherTestApp.swift in Sources */,
+				45C5E77F27616E19000D2D1C /* LocationManager.swift in Sources */,
+				457A8818276515D4001CB473 /* WeatherRow.swift in Sources */,
+				45C5E78627617CD6000D2D1C /* LoadingView.swift in Sources */,
+				457A88112764FCF9001CB473 /* ModelData.swift in Sources */,
+				457A880F2764FB63001CB473 /* WeatherView.swift in Sources */,
+				45C5E78327617122000D2D1C /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +332,7 @@
 				DEVELOPMENT_TEAM = Z8TU9PY5TM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WheatherTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +354,7 @@
 				DEVELOPMENT_TEAM = Z8TU9PY5TM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WheatherTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
